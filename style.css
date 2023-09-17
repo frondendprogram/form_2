@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Mukta', sans-serif;
+}
+span, a{
+    display: inline-block;
+}
+.all{
+    padding: 35px 0;
+    background-image: linear-gradient(
+        rgba(41, 39, 39, 0.863),
+        rgba(36, 34, 34, 0.829)),
+        url(bgc-image.jpeg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        color: white;
+}
+.inset{
+    background-color: rgba(18, 18, 179, 0.377);
+    max-width: 900px;
+    margin: auto;
+    padding: 20px 22px;
+    font-size: 17px;
+}
+.titles{
+    text-align: center;
+    font-family: 'Caveat', cursive;
+}
+.input, .select, .btn, .text{
+    width: 100%;
+    padding: 6px 10px;
+    outline: none;
+}
+.input, .select, .btn, .text, .titles{
+    margin-bottom: 15px;
+}
+.text{
+    height: 100px;
+    resize: none;
+}
+.input:focus, .text:focus, .btn:focus{
+    border-color: red;
+}
+.btn:focus{
+    background-color: skyblue;
+}
+.btn{
+    color: white;
+    font-size: 22px;
+    background-color: black;
+}
+.box, .box2{
+    border: none;
+}
+.input::placeholder, .text::placeholder{
+    font-size: 17px;
+}
+.in{
+    margin-right: 7px;
+}
